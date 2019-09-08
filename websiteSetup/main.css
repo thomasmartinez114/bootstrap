@@ -6,12 +6,12 @@ body {
 
 /* Nav Bar */
 .navbar {
-    background: #6ab446;
+    /* background: #6ab446; */
 }
 
 .nav-link,
 .navbar-brand {
-    color: #fff;
+    color: black;
     cursor: pointer;
 }
 
@@ -32,4 +32,33 @@ body {
     background-image: url('images/bt-bg-main.png');
     background-size: cover;
     background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0);
+}
+
+.description {
+    left: 50%;
+    position: absolute;
+    top: 90%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+    border: black solid 2px;
+    /* debugging */
+}
+
+.description h1 {
+    color: #6ab446;
+}
+
+.description p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
 }
