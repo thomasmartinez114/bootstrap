@@ -26,3 +26,10 @@ body {
 .navbar-collapse {
     justify-content: flex-end;
 }
+
+/* Container Image */
+.header {
+    background-image: url('images/bt-bg-main.png');
+    background-size: cover;
+    background-position: center;
+}
