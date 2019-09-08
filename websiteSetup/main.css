@@ -49,7 +49,7 @@ body {
     top: 90%;
     transform: translate(-50%, -55%);
     text-align: center;
-    border: black solid 2px;
+    /* border: black solid 2px; */
     /* debugging */
 }
 
@@ -62,3 +62,22 @@ body {
     font-size: 1.3rem;
     line-height: 1.5;
 }
+
+/* Get Tickets */
+#tickets {
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+/* .description button {
+    border: 1px solid #0DD80D;
+    border-radius: 0;
+    color: #F67512;
+    font-weight: bold;
+}
+
+.description button:hover {
+    border: 1px solid #0DD80D;
+    background: black;
+    color: #F67512;
+} */
