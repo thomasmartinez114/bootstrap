@@ -1,3 +1,29 @@
+/* Media Queries */
+@media (max-width: 575.98px) {
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+
+    .description h1 {
+        font-size: 2em;
+    }
+
+    .description p {
+        font-size: 1.2rem;
+    }
+
+    .features {
+        margin: 0;
+    }
+}
+
+
+
 body {
     padding: 0;
     margin: 0;
@@ -49,18 +75,27 @@ body {
     top: 90%;
     transform: translate(-50%, -55%);
     text-align: center;
+    flex-direction: column;
     /* border: black solid 2px; */
     /* debugging */
 }
 
 .description h1 {
     color: #6ab446;
+    margin-top: 5%;
+    margin-bottom: -5%;
 }
 
 .description p {
     color: #fff;
     font-size: 1.3rem;
     line-height: 1.5;
+}
+
+/* Date */
+.date {
+    width: 50%;
+    border: solid black 1px;
 }
 
 /* Get Tickets */
@@ -81,3 +116,16 @@ body {
     background: black;
     color: #F67512;
 } */
+
+/* Footer */
+.page-footer {
+    background-color: black;
+    color: #FE8206;
+    padding: 60px 0 20px;
+}
+
+.footer-copyright {
+    color: #206116;
+    padding: 40px 0;
+    font-weight: bold;
+}
