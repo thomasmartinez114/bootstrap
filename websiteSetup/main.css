@@ -1,6 +1,6 @@
 /* Media Queries */
 
-body {
+* body {
   padding: 0;
   margin: 0;
   background-image: url('images/bt-bg-main.png');
@@ -63,6 +63,16 @@ article img {
   color: #fff;
   font-size: 1.3rem;
   line-height: 1.5;
+}
+
+.btn {
+  padding: 0.5rem 2rem;
+  border: 1px green solid;
+  display: inline-block;
+  margin: 2rem 0 0;
+  border-radius: 0;
+  text-decoration: none;
+  color: orange;
 }
 
 .info {
